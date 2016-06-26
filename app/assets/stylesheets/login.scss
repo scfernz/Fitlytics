@@ -1,0 +1,19 @@
+// Place all the styles related to the Login controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$primary-color: teal;
+.center {
+  text-align: center;
+}
+
+.primary-color {
+  color: $primary-color;
+}
+
+.login-btn {
+  background-color: white;
+  &:hover {
+  background-color: $primary-color;
+  }
+}
